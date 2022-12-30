@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Challenge.css">
+        <script type="text/javascript" src="Challenge.js"></script>
+        
+    </head>    
+
+    <body>
+
+        <header>
+            <div class="caja-encabezado">
+                <img src="a.png" class="alura">
+                <p class="Encabezado"> ENCRIPTADOR ALURA LATAM</p>
+            </div>    
+        </header>
+
+        <main>
+            <div class="Area-texto">
+                <form class="msg-form">
+                
+                <label for="mensaje" id="L-mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensajes"></textarea>
+
+                   
+                </form>
+            </div>
+
+            <div class="Area-textoResultado">
+                <form class="r-form">
+                
+                    <label for="r" id="L-r">Resultado</label>
+                    <textarea cols="70" rows="10" id="r"></textarea>
+    
+                       
+                    </form>
+            </div>
+            <div class="p-botones">
+                <button id="encriptar" onclick="encriptar();">Encriptar</button>
+                <button id="desencriptar" onclick="desencriptar();">Desencriptar</button>
+            </div>
+            <div class="s-botones">
+                <button id="copiar" onclick="copiar();">Copiar</button>
+                <button id="pegar" onclick="pegar();">Pegar</button>
+            </div>
+
+        </main>
+
+        <footer>
+            <p class="P-pagina">GRACIAS POR PREFERIR MI ENCRIPTADOR</p>
+            <p class="Creditos">Elaborado por Alan Kaleb Cardoso Reyes 19 años</p>
+        </footer>
+        
+
+
+
+    </body>
+
+
+
+
+</html>

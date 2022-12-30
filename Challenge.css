@@ -1,0 +1,199 @@
+header{
+    background-image: url(bg.jpg);
+    padding: 30px 20px;
+}
+
+.caja-encabezado{
+   width: 940px;
+   position: relative;
+   
+}
+
+.alura{
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+
+.Encabezado{
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: aqua;
+    position: absolute;
+    top: 60px;
+    left: 400px;  
+}
+
+.Encabezado:hover{
+    color: blueviolet;
+    
+}
+
+main{
+    padding: 20px;
+    background-image: url(bg.jpg);
+}
+
+.Area-texto{
+    width: 590px;
+    position: relative;
+    display: inline-block;
+}
+
+.Area-textoResultado{
+    width: 590px;
+    display: inline-block;
+
+    position: absolute;
+    left: 650px;
+    top: 281px;
+}
+
+
+.msg-form label{
+    color: aqua;
+    font-size: 40px;
+    display: block;
+    position: relative;
+    
+
+}
+.msg-form label:hover{
+    color: blueviolet;
+
+}
+
+.r-form label{
+    color: aqua;
+    font-size: 40px;
+    display: block;
+    position: relative;
+}
+
+.r-form label:hover{
+    color: blueviolet;
+}
+
+#r{
+    background-color: aliceblue;
+    width: 100%;
+    display: inline-block;
+    height: 300px;
+    color: #000000;
+    padding: 5px;
+    font-size: 30px;
+}
+
+
+
+#mensajes{
+    background-image: url(bandera1.png);
+    width: 100%;
+    display: inline-block;
+    height: 300px;
+    color: #000000;
+    padding: 5px;
+    font-size: 30px;
+
+}
+
+
+footer{
+   background-image: url(bg.jpg);
+}
+
+.P-pagina{
+    color: aqua;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.P-pagina:hover{
+    color: blueviolet;
+   
+}
+
+.Creditos{
+    color:aqua;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Creditos:hover{
+    color: blueviolet;
+}
+
+
+
+
+.resultado{
+    color: aqua;
+    font-size: 50px;
+}
+
+
+.p-botones{
+    display: inline-block;
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    margin: 20px;
+}
+.s-botones{
+    display: inline-block;
+    position: absolute;
+    top: 650px;
+    left: 700px;
+    margin: 20px;
+}
+
+#encriptar{
+    background-color: aqua;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+#encriptar:hover{
+    background-color: blueviolet;
+    color: aqua;
+    text-decoration: underline;
+}
+
+#desencriptar{
+    background-color: aqua;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+#desencriptar:hover{
+    background-color: blueviolet;
+    color: aqua;
+    text-decoration: underline;
+}
+#copiar{
+    background-color: aqua;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+#copiar:hover{
+    background-color: blueviolet;
+    color: aqua;
+    text-decoration: underline;
+}
+
+#pegar{
+    background-color: aqua;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+#pegar:hover{
+    background-color: blueviolet;
+    color: aqua;
+    text-decoration: underline;
+}
+
